@@ -69,4 +69,12 @@ namespace WebApplication1.Controllers
             return Redirect(FormsAuthentication.GetRedirectUrl(loginUser.Username, loginUser.RememberMe));
         }
     }
+    public class CreateAccountController : Controller
+    {
+        // GET: CreateAccount
+        public ActionResult Index()
+        {
+            return View();
+        }
+    }
 }

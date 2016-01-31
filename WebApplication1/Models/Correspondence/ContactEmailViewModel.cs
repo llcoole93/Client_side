@@ -9,6 +9,6 @@ namespace WebApplication1.Models.Correspondence
     {
         public string Name { get; set; }
         public string Email { get; set; }
-        public string Messge { get; set; }
+        public string Message { get; set; }
     }
 }
