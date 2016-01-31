@@ -5,7 +5,7 @@ using System.Web;
 
 namespace WebApplication1.Models.ViewModels.Account
 {
-    public class CreateUserViewModel
+    public class CreateAccountViewModel
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }

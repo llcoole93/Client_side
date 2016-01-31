@@ -71,7 +71,6 @@ namespace WebApplication1.Controllers
     }
     public class CreateAccountController : Controller
     {
-        // GET: CreateAccount
         public ActionResult Index()
         {
             return View();
