@@ -13,6 +13,7 @@ namespace WebApplication1.Models.ViewModels.Account
         public string Gender { get; set; }
         public string UserName { get; set; }
         public string Password { get; set; }
+        public string Password_conf { get; set; }
         public bool Rec_Email { get; set; }
     }
 }
