@@ -4,4 +4,13 @@
 }
 
 <h2>Login</h2>
+@Html.ValidationSummary()
+<form method="post" action="/Account/Login">
+    <label>Username: </label><input type="text" name="username" /><br />
+    <label>Password: </label><input type="password" name="password" /><br />
+    <span>Remember Me </span><input type="checkbox" value="true" name="RememberMe" /><br />
+    <button type="submit" name="login">Login</button>
+    <br />
+    <a href="/Account/Create">Create an Account</a>
+</form>
 
